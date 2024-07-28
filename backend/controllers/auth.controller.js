@@ -23,7 +23,7 @@ export const signup = async (req, res) => {
 
     const boyProfilePic = "https://xsgames.co/randomusers/avatar.php?g=male";
 
-    const girlProfilePic = `https://xsgames.co/randomusers/avatar.php?g=female`;
+    const girlProfilePic = "https://xsgames.co/randomusers/avatar.php?g=female";
 
     const newUser = new User({
       fullName,
